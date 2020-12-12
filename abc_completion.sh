@@ -12,3 +12,6 @@ source ${AB_CLI_HOME}/java/abc_java.sh
 # Adding folders to the PATH variable for auto completion
 export PATH=${PATH}:${AB_CLI_JAVA}
 export PATH=${PATH}:${JAVA_TOOLS_MAVEN}/bin
+
+# Adding aliases
+source ${AB_CLI_HOME}/abc_alias.sh

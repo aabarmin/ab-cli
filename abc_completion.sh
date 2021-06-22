@@ -8,6 +8,7 @@ fi
 
 source ${AB_CLI_HOME}/environment.sh
 source ${AB_CLI_HOME}/java/abc_java.sh
+source ${AB_CLI_HOME}/maven/abc_maven.sh
 
 # Adding folders to the PATH variable for auto completion
 export PATH=${PATH}:${AB_CLI_JAVA}
